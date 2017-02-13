@@ -1,3 +1,5 @@
 # BSc-Thesis---Muscle-Activity-Feedback-And-Visualization
 
-![alt text](http://tinypic.com/r/mc9idy/9"Main screen")
+
+
+![alt text](http://i64.tinypic.com/mc9idy.png"Main screen")
