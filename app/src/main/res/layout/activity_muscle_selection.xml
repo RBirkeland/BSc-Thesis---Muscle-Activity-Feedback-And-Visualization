@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rene.emg.MuscleSelection">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+        <TextView
+            style="@style/spin"
+            android:text="1" />
+        <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/spinner1"
+            style="@style/spin" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+        <TextView
+            style="@style/spin"
+            android:text="2" />
+        <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/spinner2"
+            style="@style/spin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+        <TextView
+            style="@style/spin"
+            android:text="3" />
+        <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/spinner3"
+            style="@style/spin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+        <TextView
+            style="@style/spin"
+            android:text="4" />
+        <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/spinner4"
+            style="@style/spin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+        <TextView
+            style="@style/spin"
+            android:text="5" />
+        <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/spinner5"
+            style="@style/spin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+        <TextView
+            style="@style/spin"
+            android:text="6" />
+        <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/spinner6"
+            style="@style/spin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/muscleButton"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+</LinearLayout>
