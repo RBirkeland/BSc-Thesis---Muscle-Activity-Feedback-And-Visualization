@@ -10,6 +10,6 @@ connected to the user, and visualise the information in an intuitive fashion, fo
 understand on a mobile device.
 
 
-Full thesis can be downloaded here: [Link](https://www.dropbox.com/s/ikotbo4zm7339es/Report.pdf?dl=0)
+Full thesis can be found here: [Link](https://www.dropbox.com/s/ikotbo4zm7339es/Report.pdf?dl=0)
 
 ![alt text](http://i64.tinypic.com/mc9idy.png"Main screen")
