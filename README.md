@@ -19,6 +19,7 @@ This project uses:
 
 A laptop works as the server, gathering the information from the Trigno base station. The mobile application received and processes the information from the server and bluetooth heart beat sensor.
 ![](images/setup.png)
+![](images/flow.png)
 
 ## Overview
 The app can display the raw EMG data or show a live feed that shows your performance per individual muscle.
