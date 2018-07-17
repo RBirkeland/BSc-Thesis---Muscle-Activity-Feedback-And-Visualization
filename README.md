@@ -22,4 +22,4 @@ A laptop works as the server, gathering the information from the Trigno base sta
 
 ## Overview
 The app can display the raw EMG data or show a live feed that shows your performance per individual muscle.
-![](images/sensor.png) ![](images/screen1.png)
+![](images/sensor.png) ![](images/screen.png)
