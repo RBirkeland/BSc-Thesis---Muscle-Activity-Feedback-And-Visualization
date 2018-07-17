@@ -1,7 +1,7 @@
 # BSc-Thesis - Muscle Activity Feedback And Visualization
-The thesis can be found here: [Link](https://www.dropbox.com/s/ikotbo4zm7339es/Report.pdf?dl=0)
+The thesis can be found [here](https://www.dropbox.com/s/ikotbo4zm7339es/Report.pdf?dl=0)
 
-##Abstract
+## Abstract
 This project aims to create an application to serve as a training partner, substituting or
 supplementing a personal trainer, by visualizing how the user’s muscles function and
 perform during exercise, and provide relevant feedback.
@@ -11,5 +11,15 @@ connected to the user, and visualise the information in an intuitive fashion, fo
 understand on a mobile device.
 
 ## Setup
+This project uses:
+* Delsys Trigno EMG sensors
+* Android phone
+* Laptop (server)
+* Bluetooth heart beat sensor
+
 A laptop works as the server, gathering the information from the Trigno base station. The mobile application received and processes the information from the server and bluetooth heart beat sensor.
-![setup](images/setup.png)
+![](images/setup.png)
+
+## Overview
+The app can display the raw EMG data or show a live feed that shows your performance per individual muscle.
+![](sensor.png "Raw data") ![](screen2.png "Live feed")
